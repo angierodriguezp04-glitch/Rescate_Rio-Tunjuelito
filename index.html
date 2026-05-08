@@ -11,12 +11,12 @@
     <meta name="apple-mobile-web-app-title" content="Tunjuelito">
     <meta name="theme-color" content="#1e293b">
     
-    <!-- Icono para la pantalla de inicio (Emoji como fallback) -->
-    <link rel="icon" type="image/png" href="https://fav.farm/🛶">
-    <link rel="apple-touch-icon" href="https://fav.farm/🛶">
+    <!-- Icono para la pantalla de inicio -->
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="apple-touch-icon" href="icon.png">
 
-    <!-- Manifiesto de Aplicación Web Web (Inline) -->
-    <link rel="manifest" href="data:application/manifest+json,{'name':'Rescate Río Tunjuelito','short_name':'Tunjuelito','start_url':'.','display':'standalone','background_color':'#0f172a','theme_color':'#1e293b','icons':[{'src':'https://fav.farm/🛶','sizes':'192x192','type':'image/png'}]}">
+    <!-- Manifiesto de Aplicación Web (Inline) -->
+    <link rel="manifest" href="data:application/manifest+json,{'name':'Rescate Río Tunjuelito','short_name':'Tunjuelito','start_url':'.','display':'standalone','background_color':'#0f172a','theme_color':'#1e293b','icons':[{'src':'icon.png','sizes':'512x512','type':'image/png'}]}">
 
     <title>Rescate del Río Tunjuelito</title>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -180,19 +180,6 @@
             color: #64748b;
             text-transform: uppercase;
             letter-spacing: 1px;
-        }
-
-        /* Indicador para móviles sobre cómo instalar */
-        .install-guide {
-            position: absolute;
-            bottom: 20px;
-            background: white;
-            color: black;
-            padding: 10px;
-            border-radius: 10px;
-            font-size: 12px;
-            z-index: 60;
-            display: none;
         }
     </style>
 </head>
